@@ -32,7 +32,6 @@ public class Library {
 			if (!book.isBorrowed()) {
 				System.out.println(book.getTitle());
 			}
-		
 	}
 
 	private void borrowBook(String title) {
@@ -107,5 +106,4 @@ public class Library {
 		System.out.println("Books available in the first library:");
 		firstLibrary.printAvailableBooks();
 	}
-
 }
