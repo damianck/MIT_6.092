@@ -3,7 +3,6 @@ package assn05;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.geom.GeneralPath;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
 import java.util.ArrayList;
@@ -45,6 +44,8 @@ public class DrawGraphics {
 		
 		 g2.draw(new RoundRectangle2D.Double(250, 250, 20, 20, 10, 10));
 		 g2.draw(new Rectangle2D.Double(30, 30, 20, 20));
-
+		 	
+		 
+		 
 	}
 }
